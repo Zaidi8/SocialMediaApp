@@ -1,7 +1,7 @@
 import {ImageSourcePropType} from 'react-native';
 
 export interface UserStoryProps {
-  id: number;
+  id: string;
   userName: string;
   profile: ImageSourcePropType;
 }

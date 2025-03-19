@@ -1,6 +1,19 @@
-import { Slot } from "expo-router";
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import '../global.css';
+import Profile from '../src/components/Navigation/(tabs)/Profile';
+import Settings from '../src/components/Screens/Settings';
+import DrawerLayout from '../src/components/Navigation/(drawer)/_layout';
 
-// Import your global CSS file
-import "../global.css";
+const Stack = createNativeStackNavigator();
 
-export default Slot;
+export default function RootLayout() {
+  return (
+    <Stack.Navigator
+      initialRouteName="Drawer"
+      screenOptions={{headerShown: false}}>
+      <Stack.Screen name="Drawer" component={DrawerLayout} />
+      <Stack.Screen name="Profile" component={Profile} />
+      <Stack.Screen name="Settings" component={Settings} />
+    </Stack.Navigator>
+  );
+}

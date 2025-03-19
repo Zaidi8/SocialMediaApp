@@ -7,47 +7,47 @@ import usePagination from './Hooks/Pagination';
 const userStories: UserStoryProps[] = [
   {
     userName: 'Joseph',
-    id: 1,
+    id: 's-1',
     profile: require('./../assets/images/default_profile.png'),
   },
   {
     userName: 'Alan',
-    id: 2,
+    id: 's-2',
     profile: require('./../assets/images/default_profile.png'),
   },
   {
     userName: 'White',
-    id: 3,
+    id: 's-3',
     profile: require('./../assets/images/default_profile.png'),
   },
   {
     userName: 'John',
-    id: 4,
+    id: 's-4',
     profile: require('./../assets/images/default_profile.png'),
   },
   {
     userName: 'Snow',
-    id: 5,
+    id: 's-5',
     profile: require('./../assets/images/default_profile.png'),
   },
   {
     userName: 'Jack',
-    id: 6,
+    id: 's-6',
     profile: require('./../assets/images/default_profile.png'),
   },
   {
     userName: 'Xaviar',
-    id: 7,
+    id: 's-7',
     profile: require('./../assets/images/default_profile.png'),
   },
   {
     userName: 'Emily',
-    id: 8,
+    id: 's-8',
     profile: require('./../assets/images/default_profile.png'),
   },
   {
     userName: 'Angela',
-    id: 9,
+    id: 's-9',
     profile: require('./../assets/images/default_profile.png'),
   },
 ];

@@ -14,8 +14,8 @@ const ProfilePost: React.FC<PostProps> = ({
   comments,
 }) => {
   return (
-    <SafeAreaView className="mx-4 border-b border-gray-200">
-      <View className="bg-white p-4 rounded-lg mb-4">
+    <SafeAreaView className="mx-4 border-b border-gray-300">
+      <View className="p-4 mb-4">
         {/* User Info Section */}
         <View className="flex-row justify-between mr-2 items-center">
           <View className="flex-row items-center mb-2">

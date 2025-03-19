@@ -9,13 +9,18 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zaidi8.SocialMediaApp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zaidi8.SocialMediaApp"
     },
     "web": {
       "bundler": "metro",
@@ -36,12 +41,38 @@
       [
         "expo-font",
         {
-          "fonts": ["./assets/fonts/Inter_18pt-Black.ttf","./assets/fonts/Inter_18pt-BlackItalic.ttf"]
+          "fonts": [
+            "./assets/fonts/SpaceMono-Regular.ttf",
+            "./assets/fonts/Montserrat-Black.ttf",
+            "./assets/fonts/Montserrat-Bold.ttf",
+            "./assets/fonts/Montserrat-ExtraBold.ttf",
+            "./assets/fonts/Montserrat-ExtraLight.ttf",
+            "./assets/fonts/Montserrat-Light.ttf",
+            "./assets/fonts/Montserrat-Medium.ttf",
+            "./assets/fonts/Montserrat-Regular.ttf",
+            "./assets/fonts/Montserrat-SemiBold.ttf",
+            "./assets/fonts/Montserrat-Thin.ttf"
+          ]
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6e6df719-ac1a-4682-86c7-1f59e57c6589"
+      }
+    },
+    "owner": "zaidi8",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6e6df719-ac1a-4682-86c7-1f59e57c6589"
     }
   }
 }
