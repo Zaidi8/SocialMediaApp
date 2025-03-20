@@ -113,7 +113,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <SafeAreaView>
+    <SafeAreaView className="bg-gray-50">
       <StatusBar
         backgroundColor={Platform.OS === 'android' ? '#000' : 'transparent'}
         barStyle={Platform.OS === 'android' ? 'light-content' : 'dark-content'}

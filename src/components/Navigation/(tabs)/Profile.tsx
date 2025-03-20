@@ -3,7 +3,7 @@ import {View, Text, Image, SafeAreaView} from 'react-native';
 import TopTabBar from '@/src/components/Navigation/TopTabBar';
 const Profile: React.FC = () => {
   return (
-    <SafeAreaView className="flex-1">
+    <SafeAreaView className="flex-1 bg-gray-50">
       <View className="flex-row justify-center mt-10">
         <View className="border p-1 rounded-full border-blue-700">
           <Image

@@ -9,6 +9,7 @@ export default function TabsLayout() {
   return (
     <Tabs.Navigator
       screenOptions={{
+        headerShown: false,
         tabBarShowLabel: false,
         tabBarActiveTintColor: '#f35bac',
         tabBarStyle: {
@@ -20,7 +21,6 @@ export default function TabsLayout() {
         component={App}
         options={{
           title: 'Home',
-          headerShown: false,
           tabBarIcon: ({color, size, focused}) => (
             <Ionicons
               name={focused ? 'home' : 'home-outline'}

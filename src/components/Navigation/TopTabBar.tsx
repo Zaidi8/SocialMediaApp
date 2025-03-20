@@ -11,12 +11,15 @@ export default function TopTabBar() {
       initialRouteName="Posts"
       screenOptions={{
         tabBarStyle: {
-          backgroundColor: 'white',
+          backgroundColor: '#f9fafb',
+          paddingVertical: 6,
+          zIndex: 0,
+        },
+        tabBarIndicatorStyle: {
+          display: 'none',
         },
         tabBarLabelStyle: {
-          fontSize: 14,
           fontWeight: 'bold',
-          textTransform: 'capitalize', // Ensure labels look better
         },
       }}>
       <TopTab.Screen name="Posts" component={ProfilePosts} />
